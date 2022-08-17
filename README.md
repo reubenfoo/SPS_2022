@@ -5,7 +5,7 @@
 The relevant raw datasets were obtained from the following sources:
 1. RNAseq data "_CCLE_RNAseq_rsem_genes_tpm_20180929.txt.gz_" from Cancer Cell Line Encyclopedia (https://data.broadinstitute.org/ccle/)
 2. BRCA survival metadata "_model_list_20220124.csv_" from Cell Model Passports (https://cellmodelpassports.sanger.ac.uk/downloads)
-3. BRCA subtype metadata from DepMap Portal (https://depmap.org/portal/download/custom/)
+3. BRCA subtype metadata "_Expression_22Q1_Public_subsetted.csv_" from DepMap Portal (https://depmap.org/portal/download/custom/)
 4. Three independent clinical datasets from GSE81538, GSE202203, and TCGA-BRCA available publicly online
  
 ---
