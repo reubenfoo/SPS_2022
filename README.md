@@ -10,7 +10,7 @@ The relevant raw datasets were obtained from the following sources:
  
 ---
  
-Datasets 1-3 were first pre-processed in **ccle-preprocessing.R** before main processing in **ccle-processing-main.R**.
+Dataset 1 was first pre-processed in **ccle-preprocessing.R** before main processing in **ccle-processing-main.R**.
 
 Dataset 4 was used for translating labels to clinical datasets via **label_transfer_1(Calculate_Dis).R** and **label_transfer_2(MarkLabel).ipynb**
 
