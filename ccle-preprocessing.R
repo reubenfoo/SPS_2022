@@ -14,9 +14,9 @@ ccle.id <- data.frame(colnames(ccle[3:1021]))
 colnames(ccle.id) <- 'CCLE_ID'
 ccle.id$model_name <- gsub('_.+$', '', ccle.id$CCLE_ID)
 
-metadata <- read.csv('./model_list_20220124.csv')
-metadata$model_name <- toupper(gsub("[^[:alnum:][:space:]]","",metadata$model_name)) ## retain alphanumeric characters only
-metadata <- left_join(ccle.id, metadata, by='CCLE_ID')
+# metadata <- read.csv('./model_list_20220124.csv')
+# metadata$model_name <- toupper(gsub("[^[:alnum:][:space:]]","",metadata$model_name)) ## retain alphanumeric characters only
+# metadata <- left_join(ccle.id, metadata, by='CCLE_ID')
 # write.table(metadata,'./CCLE_metadata.txt', row.names=FALSE)
 
 ccle[,3:1021] <- lapply(ccle[,3:1021], function(x) as.numeric(x))
