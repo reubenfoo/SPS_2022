@@ -16,4 +16,4 @@ Dataset 4 was used for translating labels to clinical datasets via **label_trans
 
 Boruta codes and derived features can be found in "boruta" folder.
 
-RGES results can be found in "gene_reversal_score_outputs" folder, using codes from Bin et al. (https://github.com/Bin-Chen-Lab/RGES).
+RGES results can be found in "gene_reversal_score_outputs" folder, using codes from Chen et al. (https://github.com/Bin-Chen-Lab/RGES).
